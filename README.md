@@ -62,3 +62,19 @@ function App() {
 
 export default App;
 ```
+
+**Extra task**
+
+Follow: https://vuejs.org/guide/essentials/application.html#the-root-component
+
+Implement below
+```
+App (root component)
+├─ TodoList
+│  └─ TodoItem
+│     ├─ TodoDeleteButton
+│     └─ TodoEditButton
+└─ TodoFooter
+   ├─ TodoClearButton
+   └─ TodoStatistics
+```
