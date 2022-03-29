@@ -5,7 +5,8 @@
 4. Create a custom class-based component. Nest the functional component. Embed an expression in JSX. Based on the expression value, render different elements in the page.
 6. Return multiple elements using either Fragment, div, or an array.
 
-Reference code below
+Refer code below
+
 *Class-based component*
 
 ```
