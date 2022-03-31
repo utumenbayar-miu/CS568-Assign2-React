@@ -1,9 +1,15 @@
 # CS568 - Assignment 2 - React elements and components
 1. Create a React app with the create-react-app.
 2. Create an element with the React.createElement.
-3. Create a custom functional component.
-4. Create a custom class-based component. Nest the functional component. Embed an expression in JSX. Based on the expression value, render different elements in the page.
-6. Return multiple elements using either Fragment, div, or an array.
+3. Create a custom functional component with props. Display the prop using the embedded expression in JSX.
+4. Create a custom class-based component. Render the functional component in it.
+```
+App (root component)
+├─ Class component
+│  └─ Functional component
+```
+6. Add any condition like `const a = 1; if (a > 2) { return <p>If body</p>; } else { return <p>Else body</p>; }`, render different elements based on the codition in the page.
+7. Return multiple elements using either Fragment, div, or an array.
 
 Refer code below
 
