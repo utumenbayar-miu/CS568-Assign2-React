@@ -9,7 +9,7 @@ App (root component)
 │  └─ Functional component
 ```
 6. Return multiple elements using either Fragment, div, or an array.
-7. Implement below
+7. Implement below. Just log out the component names in the <p> tag.
 ```
 App (root component)
 ├─ TodoList
