@@ -8,8 +8,18 @@ App (root component)
 ├─ Class component
 │  └─ Functional component
 ```
-6. Add any condition like `const a = 1; if (a > 2) { return <p>If body</p>; } else { return <p>Else body</p>; }`, render different elements based on the codition in the page.
-7. Return multiple elements using either Fragment, div, or an array.
+6. Return multiple elements using either Fragment, div, or an array.
+7. Implement below
+```
+App (root component)
+├─ TodoList
+│  └─ TodoItem
+│     ├─ TodoDeleteButton
+│     └─ TodoEditButton
+└─ TodoFooter
+   ├─ TodoClearButton
+   └─ TodoStatistics
+```
 
 Refer code below
 
@@ -67,20 +77,4 @@ function App() {
 }
 
 export default App;
-```
-
-**Extra task**
-
-Follow: https://vuejs.org/guide/essentials/application.html#the-root-component
-
-Implement below
-```
-App (root component)
-├─ TodoList
-│  └─ TodoItem
-│     ├─ TodoDeleteButton
-│     └─ TodoEditButton
-└─ TodoFooter
-   ├─ TodoClearButton
-   └─ TodoStatistics
 ```
