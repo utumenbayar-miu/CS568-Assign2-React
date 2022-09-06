@@ -8,8 +8,8 @@ App (root component)
 ├─ Class component
 │  └─ Functional component
 ```
-6. Return multiple elements using either Fragment, div, or an array.
-7. Implement below. Just log out the component names in the <p> tag.
+6. Return multiple elements using either Fragment, div, or an array. Implement the Table, Column example in the slide.
+7. Implement below. Just log out the component names in the "p" tag.
 ```
 App (root component)
 ├─ TodoList
@@ -17,8 +17,6 @@ App (root component)
 │     ├─ TodoDeleteButton
 │     └─ TodoEditButton
 └─ TodoFooter
-   ├─ TodoClearButton
-   └─ TodoStatistics
 ```
 
 Refer code below
