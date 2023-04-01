@@ -1,4 +1,23 @@
 # CS568 - Assignment 2 - React elements and components
+## Thinking in React
+1. Read https://react.dev/learn/thinking-in-react. Write what you learned in your own words in **200** words in the README.md file.
+2. Implement the "Table" example on the page. Fill it with the **Student** data instead of **Fruits** and **Vegetables**.
+
+FILTER
+
+CS568
+| Code      | Name |
+| ----------- | ----------- |
+| 985431      | John       |
+| 985231   | Bat        |
+
+CS516
+| Code      | Name |
+| ----------- | ----------- |
+| 185431      | Sara       |
+| 185431   | Cat        |
+
+## Microtasks
 1. Create an element with the React.createElement.
 2. Create a functional component. Declare a variable in the function and display it using the embedded expression on the page.
 3. Create a custom class-based component. Render the functional component in it.
