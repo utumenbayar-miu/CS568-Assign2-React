@@ -35,6 +35,7 @@ App (root component)
 │     ├─ TodoDeleteButton (component)
 │     └─ TodoEditButton (component)
 └─ TodoFooter (component)
+6. Implement the Advanced Hello example, both class and functional way.
 ```
 
 Refer code below
