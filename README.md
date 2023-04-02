@@ -27,7 +27,8 @@ App (root component)
 │  └─ Functional component
 ```
 4. Return multiple elements using either Fragment, div, or an array. Implement the Table, Column example in the slide.
-5. Implement below. Just log out the component names in the "p" tag.
+5. Implement the Advanced Hello example, both class and functional way.
+6. Implement below. Just log out the component names in the "p" tag for now. We will implement the rest starting tomorrow.
 ```
 App (root component)
 ├─ TodoList (component)
@@ -35,7 +36,6 @@ App (root component)
 │     ├─ TodoDeleteButton (component)
 │     └─ TodoEditButton (component)
 └─ TodoFooter (component)
-6. Implement the Advanced Hello example, both class and functional way.
 ```
 
 Refer code below
