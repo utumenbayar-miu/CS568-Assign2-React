@@ -17,18 +17,7 @@ CS516
 | 185431      | Sara       |
 | 185431   | Cat        |
 
-## Microtasks
-1. Create an element with the React.createElement.
-2. Create a functional component. Declare a variable in the function and display it using the embedded expression on the page.
-3. Create a custom class-based component. Render the functional component in it.
-```
-App (root component)
-├─ Class component
-│  └─ Functional component
-```
-4. Return multiple elements using either Fragment, div, or an array. Implement the Table, Column example in the slide.
-5. Implement the Advanced Hello example, both class and functional way.
-6. Implement below. Just log out the component names in the "p" tag for now. We will implement the rest starting tomorrow.
+3. Implement the following. Just log out the component names in the "p" tag for now. We will implement the rest starting tomorrow.
 ```
 App (root component)
 ├─ TodoList (component)
@@ -38,7 +27,44 @@ App (root component)
 └─ TodoFooter (component)
 ```
 
-Refer code below
+## Microtasks
+1. Add your favorite HTML tag to the root div. Add an attribute, "name" and assign your name to it. Refer:
+```
+const root = document.getElementById("root");
+const strong = document.createElement('strong');
+strong.textContent = 'Hello';
+root.appendChild(strong);
+root.setAttribute("name", "I am a root");
+console.log(root.getAttribute("name"));
+```
+2. Create an element with the React.createElement. Please don't just copy and paste the following. Try to understand and come up with your own element.
+```
+import React from "react";
+
+export default function App() {
+  return React.createElement(
+    "div",
+    null,
+    React.createElement(
+      "p",
+      { className: "App" },
+      "Hello World. This is my first React App."
+    )
+  );
+}
+
+```
+3. Pratice curly brackets "{}" to render a variable in JSX. Create a functional component. Declare a variable in the function and display it using the embedded expression on the page. 
+4. Create a custom class-based component. Render the functional component in it.
+```
+App (root component)
+├─ Class component
+│  └─ Functional component
+```
+5. Return multiple elements using either Fragment, div, or an array. Implement the Table, Column example in the slide.
+6. Implement the Advanced Hello example, both class and functional way.
+
+Refer code below if need. Don't copy and paste.
 
 *Class-based component*
 
