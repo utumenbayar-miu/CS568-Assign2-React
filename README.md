@@ -1,6 +1,6 @@
 # CS568 - Assignment 2 - React elements and components
 ## Thinking in React
-1. Read https://react.dev/learn/thinking-in-react. Write what you learned in your own words in **200** words in the README.md file.
+1. Read https://react.dev/learn/thinking-in-react. Write what you learned in your own words in **100** words in the README.md file.
 2. Implement the "Table" example on the page. Fill it with the **Student** data instead of **Fruits** and **Vegetables**.
 
 FILTER
@@ -64,6 +64,7 @@ App (root component)
 5. Return multiple elements using either Fragment, div, or an array. Implement the Table, Column example in the slide.
 6. Implement the Advanced Hello example, both class and functional way.
 
+---
 Refer code below if need. Don't copy and paste.
 
 *Class-based component*
